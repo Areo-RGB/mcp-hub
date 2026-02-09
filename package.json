@@ -39,7 +39,9 @@
     "release:patch": "bash scripts/release.sh patch",
     "release:minor": "bash scripts/release.sh minor",
     "release:major": "bash scripts/release.sh major",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "gui:install": "pip install -r gui/requirements.txt",
+    "gui": "python gui/app.py"
   },
   "devDependencies": {
     "@eslint/js": "^9.31.0",

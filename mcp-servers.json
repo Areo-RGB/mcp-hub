@@ -1,7 +1,6 @@
 {
   "mcpServers": {
     "test-sse-server": {
-      "type": "sse",
       "url": "http://localhost:8080/sse",
       "headers": {
         "Authorization": "Bearer test-token"
